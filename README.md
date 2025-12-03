@@ -1,1 +1,2 @@
 The project "Unveiling the Heritage: Krystyna Bednarczyk – Polish Poet and Co-Founder of the Poets’ and Painters’ Press in London" has been implemented by the Union of Polish Writers Abroad in London (2023–2025) with the support of The National Lottery Heritage Fund (NS-23-00154). The virtual map is an integral part of this initiative, highlighting the places where Krystyna Bednarczyk lived, created, and left her mark on the British literary scene.
+Project website: https://krystynabednarczyk.bluepointart.uk/
