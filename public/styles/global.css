@@ -156,6 +156,14 @@ html body main div.content-container img.about-image {
   /* Centers the image horizontally */
 }
 
+html body main div.content-container video.about-video {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+}
+
 html body main div.content-container h1 {
   padding-top: 1em;
 }
