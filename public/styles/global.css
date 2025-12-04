@@ -24,7 +24,8 @@ main {
   flex: 1;
 }
 
-li, em {
+li,
+em {
   font-family: 'Helvetica Neue', Helvetica, Arial, "MS Trebuchet", sans-serif;
 
 }
@@ -73,6 +74,11 @@ html body div#storymap-embed.vco-storymap.vco-layout-landscape div#vco-uawfxg.vc
   align-items: center;
   justify-content: center;
 }
+
+html body header.navbar ul {
+  padding-top: 1em;
+}
+
 .video-container {
   display: flex;
   flex-direction: column;
@@ -84,8 +90,10 @@ html body div#storymap-embed.vco-storymap.vco-layout-landscape div#vco-uawfxg.vc
 .video-wrapper {
   position: relative;
   width: 100%;
-  max-width: 800px; /* Adjust width as needed */
-  aspect-ratio: 16 / 9; /* Maintain video aspect ratio */
+  max-width: 800px;
+  /* Adjust width as needed */
+  aspect-ratio: 16 / 9;
+  /* Maintain video aspect ratio */
 }
 
 .video-wrapper iframe {
@@ -111,9 +119,12 @@ html body div#storymap-embed.vco-storymap.vco-layout-landscape div#vco-uawfxg.vc
 
 .audio-poster {
   width: 100%;
-  max-width: 400px; /* Adjust as needed */
-  border-radius: 10px; /* Optional: adds rounded corners */
-  margin-bottom: 10px; /* Space between image and audio player */
+  max-width: 400px;
+  /* Adjust as needed */
+  border-radius: 10px;
+  /* Optional: adds rounded corners */
+  margin-bottom: 10px;
+  /* Space between image and audio player */
 }
 
 audio {
