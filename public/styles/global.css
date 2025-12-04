@@ -167,6 +167,16 @@ html body main div.content-container img.about-image {
   /* Centers the image horizontally */
 }
 
+.content-container .about-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.content-container .about-image-link {
+  display: inline-flex;
+  line-height: 0;
+}
+
 html body main div.content-container video.about-video {
   width: 100%;
   max-width: 900px;
@@ -177,6 +187,10 @@ html body main div.content-container video.about-video {
 
 html body main div.content-container h1 {
   padding-top: 1em;
+}
+
+.content-container .about-title {
+  padding: 0.7em;
 }
 
 html body main div.content-container p a img.logo-heritage-image,
