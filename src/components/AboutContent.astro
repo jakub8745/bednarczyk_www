@@ -6,11 +6,20 @@
             target="_blank"
             rel="noopener noreferrer"
         >
-            <img
-                src="/images/logo_ZPPnO_anim.gif"
-                alt="Logo_ZPPnO"
-                class="about-image"
-            />
+            <video
+                class="about-image about-image-video"
+                autoplay
+                loop
+                muted
+                playsinline
+                preload="metadata"
+                poster="/images/logoZPPnO.jpg"
+                role="img"
+                aria-label="Logo_ZPPnO"
+            >
+                <source src="/images/logo_ZPPnO_anim.webm" type="video/webm" />
+                <source src="/images/logo_ZPPnO_anim.mp4" type="video/mp4" />
+            </video>
         </a>
     </div>
     <h1 class="about-title">About Project</h1><br />
@@ -32,7 +41,7 @@
         src="/video/Unveiling_the_Heritage_Bednarczyk_web.mp4"
         controls
         poster="/images/tytulowa.png"
-        preload="metadata"
+        preload="none"
     >
         Your browser does not support the video tag.
     </video>

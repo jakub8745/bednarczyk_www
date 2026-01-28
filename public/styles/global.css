@@ -158,7 +158,8 @@ audio {
   text-decoration: underline;
 }
 
-html body main div.content-container img.about-image {
+html body main div.content-container img.about-image,
+html body main div.content-container video.about-image {
   width: 10em;
   height: auto;
   display: block;
