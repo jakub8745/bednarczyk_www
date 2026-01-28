@@ -2,7 +2,7 @@ name: Build + Pin to IPFS + Update DNSLink
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 env:
   DNSLINK_RECORD_NAME: ${{ secrets.DNSLINK_RECORD_NAME || '' }}
